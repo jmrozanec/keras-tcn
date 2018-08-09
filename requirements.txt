@@ -1,4 +1,4 @@
 keras
-numpy
-tensorflow-gpu
+numpy==1.14.5
+tensorflow
 h5py>=2.8.0rc1
