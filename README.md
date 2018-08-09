@@ -86,7 +86,7 @@ model = tcn.dilated_tcn(output_slice_index='last',
 ```
 git clone git@github.com:philipperemy/keras-tcn.git
 cd keras-tcn
-virtualenv -p python3.6 venv
+virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt # change to tensorflow if you dont have a gpu.
 python setup.py install # install keras-tcn as a package
